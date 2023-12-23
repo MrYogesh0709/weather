@@ -6,7 +6,17 @@ Simple Weather api usecase for get Weather of current location and with search o
 
 ## Demo
 
-https://weather-react-vite.netlify.app
+weathertoday-react-vite.netlify.app
+
+## Get Your API
+
+[Documentation](https://openweathermap.org/api)
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`VITE_API_KEY = YOUR_WEATHER_API`
 
 ## Installation
 
