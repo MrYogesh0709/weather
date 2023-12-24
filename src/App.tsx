@@ -66,7 +66,7 @@ const App = () => {
   };
 
   if (loading) {
-    return <Loading />;
+    return <Loading loading={"weather"} />;
   }
 
   if (error) {

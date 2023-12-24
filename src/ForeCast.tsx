@@ -54,7 +54,7 @@ const ForeCast = ({ cityName }: { cityName: string }) => {
   }, []);
 
   if (loading) {
-    return <Loading />;
+    return <Loading loading="forecast" />;
   }
 
   if (error) {
